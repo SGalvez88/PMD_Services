@@ -10,8 +10,6 @@ import androidx.annotation.Nullable;
 
 public class MiServicio extends Service {
 
-
-    @Nullable
     @Override
     public IBinder onBind(Intent intent) {
         return null;
